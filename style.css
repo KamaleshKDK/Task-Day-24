@@ -1,0 +1,170 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form {
+
+    color: black;
+    font-weight: bold;
+
+}
+
+h1 {
+    margin-right: 35px;
+    font-size: 50px;
+    font-family: Helvetica Neue;
+    font-weight: 550;
+}
+
+fieldset,
+legend {
+    background-image: linear-gradient(to left, #7b4397, #dc2430);
+    border-radius: 15px;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+label {
+    font-size: 20px;
+    font-family: serif;
+
+}
+
+.label {
+    padding: 2em;
+
+
+}
+
+::placeholder {
+    font-family: monospace;
+}
+
+.input {
+    border: 1px solid rgb(94, 94, 94);
+    outline-color: #0275d8;
+    border-radius: 10px;
+    width: 100%;
+    height: 5vh;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#btnSubmit {
+    background-image: linear-gradient(to left, #36d1dc, #5b86e5);
+
+    opacity: .5;
+    width: 6em;
+    border: none;
+    border-radius: 10px;
+    margin-right: 80px;
+    font-size: 20px;
+    float: right;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+#btnSubmit:hover {
+    opacity: 100;
+    background-image: linear-gradient(to left, #36d1dc, #5b86e5);
+}
+
+
+#editUser {
+    background-image: linear-gradient(to left, #36d1dc, #5b86e5);
+    height: 5vh;
+    font-family: Verdana, Tahoma, sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 15px;
+
+}
+
+#deleteUser {
+
+    background-image: linear-gradient(to right, #ff512f, #dd2476);
+    height: 5vh;
+    font-family: Verdana, Tahoma, sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-spacing: 0;
+    text-align: center;
+
+
+}
+
+td,
+th {
+    padding: 0.4em;
+    font-size: 0.8em;
+    width: 8%;
+   
+
+}
+
+th {
+    background-image: linear-gradient(to top, #36d1dc, #5b86e5);
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+
+
+}
+
+td {
+    color: rgb(22, 27, 27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(236, 236, 236);
+    font-size: 20px;
+    min-height: auto;
+   
+}
+
+@media only screen and (min-width: 1124px) {
+    .form {
+        width: 27vw;
+    }
+
+    table {
+        width: 40vw;
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .form {
+        width: 70vw;
+    }
+
+    table {
+        font-size: x-small;
+        margin-top: 5%;
+        width: 60vw;
+    }
+}
